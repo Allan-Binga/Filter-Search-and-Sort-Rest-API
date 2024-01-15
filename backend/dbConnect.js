@@ -8,7 +8,7 @@
         console.log("Connected to databse successfully")
     })
 
-    mongoose.connection.on("error", (error) => {
+    mongoose.connection.on("err", (error) => {
         console.log("Error while connecting to databse:" + error)
     })
 
